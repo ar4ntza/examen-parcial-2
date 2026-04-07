@@ -1,14 +1,14 @@
 # Examen Parcial 2
-
+```
 **Nombre:** Arantza García Vázquez
 **Materia:** Administración de Bases de Datos  
 **Tecnologías:** FastAPI · MySQL · MongoDB 
-
+```
 ---
 
 ## Estructura del proyecto
 
-
+```
 parcial2/
 ├── routes/
 │   ├── __init__.py
@@ -20,7 +20,7 @@ parcial2/
 ├── models.py            # Esquemas Pydantic
 ├── main.py              # App FastAPI + startup automático
 └── requirements.txt
-
+```
 
 ---
 ## Instalación
