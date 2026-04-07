@@ -1,4 +1,4 @@
-# Ecommerce API – Parcial 2
+# Examen Parcial 2
 
 **Nombre:** Arantza García Vázquez
 **Materia:** Administración de Bases de Datos  
@@ -11,18 +11,18 @@
 
 parcial2/
 ├── routes/
-│ ├── usuario.py # /usuarios
-│ ├── pedido.py # /pedidos (con transacción)
-│ ├── evento.py # /eventos
-│ └── dashboard.py # /dashboard
-├── database.py # Conexiones
-├── models.py # Esquemas
-├── main.py # App principal
+│   ├── __init__.py
+│   ├── usuario.py       # POST /usuarios  · GET /usuarios
+│   ├── pedido.py        # POST /pedidos   (transacción explícita)
+│   ├── evento.py        # POST /eventos   · GET /eventos/analisis
+│   └── dashboard.py     # GET  /dashboard/resumen
+├── database.py          # Conexiones MySQL y MongoDB Atlas
+├── models.py            # Esquemas Pydantic
+├── main.py              # App FastAPI + startup automático
 └── requirements.txt
 
 
 ---
-
 ## Instalación
 
 ```bash
